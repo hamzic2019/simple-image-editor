@@ -28,12 +28,12 @@ body {
 
 .uploader {
     width: 100%;
-    background-color: rgba(210, 105, 30, 0.05);
-    padding:65px 0px 65px 0px;
+    background-color: rgba(255, 107, 1, 0.15);
     border-radius: 5px;
-    border: 4px dotted rgba(0, 0, 0, 0.1);
+    border: 4px dashed rgba(0, 0, 0, 0.1);
     font-size: 1.5em;
     cursor: pointer;
+    height: 300px;
     
 }
 
@@ -46,7 +46,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    height: 300px;
 }
 
 .uploader img {
@@ -58,7 +58,7 @@ body {
     display: block;
     width: 100%;
     text-align: center;
-    margin-top: 15px;
+    margin-top: -80px;
     color:rgba(0, 0, 0, 0.5);
 }
 
