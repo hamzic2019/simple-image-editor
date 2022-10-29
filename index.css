@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+
+body {
+    background-color: #e74c3c;
+    
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+
+.editor {
+    width: 500px;
+    background-color: white;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.504);
+    margin: 10px;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.uploader {
+    width: 100%;
+    background-color: rgba(210, 105, 30, 0.05);
+    padding:65px 0px 65px 0px;
+    border-radius: 5px;
+    border: 4px dotted rgba(0, 0, 0, 0.1);
+    font-size: 1.5em;
+    cursor: pointer;
+    
+}
+
+
+
+
+.img-holder {
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.uploader img {
+    height: 100px;
+    opacity: 0.35;
+}
+
+.uploader p {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: 15px;
+    color:rgba(0, 0, 0, 0.5);
+}
+
+
+.actions-input {
+    height: 100px;
+    margin-top: 25px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.labelin {
+    width: 100%;
+    font-size: 22px;
+    display: block;
+    margin: 5px 0px 5px 0px;
+    padding-left: 5px;
+}
+
+.actionsin {
+    height: 50px;
+    width: 220px;
+    border:1px solid rgba(0, 0, 0, 0.199);
+    border-radius: 5px;
+
+    font-size: 22px;
+    padding-left: 5px;
+}
+
+.actionsin:focus {
+    outline:none;
+    border:1px solid rgba(29, 8, 38, 0.5);
+}
+
+
+
+.actions-check {
+    display: none;
+    /*background-color: red; */
+    height: 80px;
+    display: flex;
+    align-items: center;
+   
+}
+
+
+.lock-aspect-ratio {
+    width: 50%;
+    /*background-color: rgb(36, 160, 63); */
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding:0px 1px 0px 7px;
+}
+
+.lock-aspect-ratio input {
+    height:25px;
+    width: 25px;
+}
+
+.lock-aspect-ratio input[type='checkbox'] {
+    accent-color: #e74c3c;
+}
+
+.lock-aspect-ratio label {
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+/* ŠIRINA*/
+
+.widthh {
+    width: 50%;
+    /*background-color: aqua; */
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding:0px 10px 0px 8px;
+}
+
+.widthh input {
+    height:25px;
+    width: 25px;
+}
+
+.widthh input[type='checkbox'] {
+    accent-color: #e74c3c;
+}
+
+.widthh label {
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+.download-btn {
+    background-color: red;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.download-btn button {
+    height: 75px;
+    width: 100%;
+    font-size: 35px;
+    background-color: #e74c3c;
+    color:white;
+    border-radius: 15px;
+    border:0px solid black;
+}
+
+

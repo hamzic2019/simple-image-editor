@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Simple Image Editor</title>
+</head>
+<body>
+    
+    <div class="editor">
+        <div class="uploader">
+            <div class="img-holder">
+                <img src="./assets/upload.png" alt="">
+            </div>
+            <p>Browse Files to Upload.</p>
+        </div>
+        
+        <div class="all-of-them">
+            <div class="actions-input">
+                <div class="height">
+                    <label class="labelin" for="height">Height</label>
+                    <input class="actionsin" type="input" placeholder="1920">
+                </div>
+                <div class="width">
+                    <label class="labelin" for="width">Width</label>
+                    <input class="actionsin" type="input" placeholder="720">
+                </div>
+            </div>
+            <div class="actions-check">
+                <div class="lock-aspect-ratio">
+                    <input type="checkbox" id="checkbox">
+                    <label for="checkbox">Lock Aspect Ratio</label>
+                </div>
+                <div class="widthh">
+                    <input type="checkbox" id="reducequality">
+                    <label for="reducequality">Reduce quality</label>
+                </div>
+            </div>
+    
+            <div class="download-btn">
+                <button>DOWNLOAD IMAGE</button>
+            </div>
+        </div>
+
+        
+    </div>
+
+
+    <script src="./index.js"></script>
+</body>
+</html>
